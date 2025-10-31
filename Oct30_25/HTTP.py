@@ -18,7 +18,7 @@ def simple_get_request(url):
         }
 
 
-result = simple_get_request("https://api.github.co/users/github")
+result = simple_get_request("https://api.github.com/users/github")
 print(result)
 # print(result["login"])  # Should print 'github' if successful
 # print(result["followers"])  # Number of followers
